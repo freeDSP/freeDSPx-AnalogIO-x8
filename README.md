@@ -1,7 +1,7 @@
-# freeDSPx AnalogIO-x8
-Expansionboard with 8 analog balanced inputs and 8 analog balanced outputs
+# AnalogIO-x8
+Expansionboard with 8 analog balanced inputs and 8 analog balanced outputs for Infinitas and other freeDSPs
 
-BOARD STATUS: TESTING - DO NOT BUILT!
+BOARD STATUS: Released!
 
 MAIN COORDINATOR: [dspverden](https://github.com/dspverden)
 
