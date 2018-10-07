@@ -184,8 +184,6 @@ Wire Wire Line
 	2400 6100 2400 7200
 Wire Wire Line
 	2500 6250 2500 6100
-Text Notes 950  6700 0    39   ~ 0
-See datasheet for configuration
 Wire Wire Line
 	1450 5400 1500 5400
 Connection ~ 1450 5500
@@ -1869,8 +1867,8 @@ Wire Wire Line
 	2050 7200 2000 7200
 Wire Wire Line
 	2000 7200 2000 7250
-Text Notes 950  6800 0    39   ~ 0
-Addr: 0x20/0x21
+Text Notes 650  7100 0    39   ~ 0
+I2C Addr: 0x20/0x21
 $Comp
 L rk:RES_0R00_1%_0.125W_Thick_0805 R360
 U 1 1 5ADEA95A
@@ -4233,8 +4231,6 @@ F 5 "NE5532AD8R2GOSCT-ND" H 13200 3800 39  0001 C CNN "digikey"
 	2    13200 4200
 	1    0    0    -1  
 $EndComp
-Text Notes 8350 8200 0    60   ~ 0
-alternative OpAmps: OPA1652, OPA2365, OPA2353
 $Comp
 L rk:IC_AK4458VN IC305
 U 1 1 5AF30016
@@ -4649,6 +4645,6 @@ Wire Wire Line
 	2200 6250 2200 6550
 Wire Wire Line
 	2400 7200 2450 7200
-Text Notes 950  7000 0    39   ~ 0
-For Infinitas\nR359, R360, R376, R377: 0R00\nR364, R365, R374: DNP
+Text Notes 650  6900 0    39   ~ 0
+For Infinitas\nR359, R360, R376, R377: 0R00\nR364, R365, R374: DNP\n\nSee datasheet for other configurations.\nRemove R376 and R377 for hardware mode\n(parallel mode).
 $EndSCHEMATC

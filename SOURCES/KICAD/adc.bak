@@ -627,8 +627,6 @@ TDMOUT
 NoConn ~ 12750 5900
 NoConn ~ 12750 5800
 NoConn ~ 12750 5700
-Text Notes 13150 4100 0    39   ~ 0
-see datasheet for configuration
 Text HLabel 13250 5400 2    39   Output ~ 0
 OVF
 $Comp
@@ -2543,8 +2541,8 @@ Wire Wire Line
 	12750 3900 12800 3900
 Connection ~ 12800 4000
 Connection ~ 12000 4200
-Text Notes 13150 4250 0    39   ~ 0
-Addr: 0x22/0x23
+Text Notes 14550 4900 0    39   ~ 0
+I2C Addr: 0x22/0x23
 $Comp
 L rk:RES_0R00_1%_0.125W_Thick_0805 R229
 U 1 1 5ADE3D6A
@@ -6029,8 +6027,6 @@ Wire Wire Line
 	12800 4000 12800 4100
 Wire Wire Line
 	12000 4200 12450 4200
-Text Notes 14800 5250 0    39   ~ 0
-For Infinitas:\nR251, R252, R300, R375: 0R00\nR237, R239: 47K0\nR238, R253: DNP
-Text Notes 12600 3550 0    39   ~ 0
-R231, R233, R297, R299: 0R00\nR230: 47K0\nR232, R298: DNP
+Text Notes 14550 4750 0    39   ~ 0
+For Infinitas:\nR231, R233, R251, R252, \nR297, R299, R300, R375: 0R00\nR230, R237, R239:        47K0\nR232, R238, R253, R298: DNP\n\nSee datasheet for other configurations.\nRemove R300 and R301 for hardware mode\n(parallel mode).
 $EndSCHEMATC
